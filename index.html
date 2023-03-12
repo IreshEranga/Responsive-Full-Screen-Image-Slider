@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Image Slider - Pure JavaScript</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--Slider-->
+    <div class="slider">
+
+        <!--Radio controlers-->
+        <input type="radio" name="sld" id="sld1">
+        <input type="radio" name="sld" id="sld2">
+        <input type="radio" name="sld" id="sld3">
+        <input type="radio" name="sld" id="sld4">
+        <input type="radio" name="sld" id="sld5">
+
+        <!--slides-->
+        <div class="slides">
+
+            <!--slide1-->
+            <div class="slide curr">
+
+                <img src="./image/img1.jpg" alt="">
+
+                <div class="desc">
+                    <h2>Beach Volleyball</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi culpa aut minus cupiditate, dolorum nam? Facilis amet quam, tenetur velit facere impedit saepe et dignissimos neque omnis placeat vel.</p>
+
+                    <a href="#">View More</a>
+                </div>
+            </div>
+
+             <!--slide2-->
+             <div class="slide">
+
+                <img src="./image/img2.jpg" alt="">
+
+                <div class="desc">
+                    <h2>Football</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi culpa aut minus cupiditate, dolorum nam? Facilis amet quam, tenetur velit facere impedit saepe et dignissimos neque omnis placeat vel.</p>
+
+                    <a href="#">View More</a>
+                </div>
+            </div>
+
+             <!--slide3-->
+             <div class="slide">
+
+                <img src="./image/img3.jpg" alt="">
+
+                <div class="desc">
+                    <h2>Cycling</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi culpa aut minus cupiditate, dolorum nam? Facilis amet quam, tenetur velit facere impedit saepe et dignissimos neque omnis placeat vel.</p>
+
+                    <a href="#">View More</a>
+                </div>
+            </div>
+
+             <!--slide4-->
+             <div class="slide">
+
+                <img src="./image/img4.jpg" alt="">
+
+                <div class="desc">
+                    <h2>Tennis</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi culpa aut minus cupiditate, dolorum nam? Facilis amet quam, tenetur velit facere impedit saepe et dignissimos neque omnis placeat vel.</p>
+
+                    <a href="#">View More</a>
+                </div>
+            </div>
+
+             <!--slide5-->
+             <div class="slide">
+
+                <img src="./image/img5.jpg" alt="">
+
+                <div class="desc">
+                    <h2>Cricket</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi culpa aut minus cupiditate, dolorum nam? Facilis amet quam, tenetur velit facere impedit saepe et dignissimos neque omnis placeat vel.</p>
+
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Arrow navigation-->
+        <a href="#" class="arrow left"><i class="fas fa-arrow-circle-left"></i></a>
+
+        <a href="#" class="arrow right"><i class="fas fa-arrow-circle-right"></i></a>
+
+        <!--Radio navigation-->
+        <div class="rad-nav">
+            <label for="sld1" class="rad-btn active"></label>
+            <label for="sld2" class="rad-btn"></label>
+            <label for="sld3" class="rad-btn"></label>
+            <label for="sld4" class="rad-btn"></label>
+            <label for="sld5" class="rad-btn"></label>
+        </div>
+    </div>
+
+    <!--External JS-->
+    <script src="script.js"></script>
+</body>
+</html>
